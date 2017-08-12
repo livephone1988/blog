@@ -21,3 +21,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('posts', 'PostsController@index');
 Route::get('posts/{post}', 'PostsController@show');
+
+
+Route::get('/threads', function () {
+	return "all threads";
+});
+
+
+	
